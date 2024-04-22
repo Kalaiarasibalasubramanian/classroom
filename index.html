@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg bg-dark py-3 navbar-dark   text-light fixed-top">
+    <div class="container">
+        <a href="" class="navbar-brand text-light"> Flim Makers </a>
+        <button class="navbar-toggler"
+         data-bs-toggle="collapse" 
+         type="button" 
+         data-bs-target="#navmenu"
+         >
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+        <div class="collapse navbar-collapse " id="navmenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="#director" class="nav-link text-light">Director</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Ad" class="nav-link text-light">Assitant Director</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#DOP" class="nav-link text-light">DOP</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+   </nav>
+
+   <section class="bg-dark text-light p-5  text-center text-sm-start p-5">
+    <div class="container">
+        <div class="d-sm-flex justify-content-between aling-items-center">
+            <div>
+                <h1>'Wanna become a  <span class="text-warning">Director?</span></h1>
+                <p class="my-3">“Pick up a camera. Shoot something. No matter how small, no matter how cheesy, no matter whether your friends and your sister star in it. Put your name on it as director. Now you're a director. Everything after that you're just negotiating your budget and your fee.”
+                    </p>
+
+                   <p class="my-4"><span class="text-dark">― James Cameron</span></p> 
+
+                   <button class="btn btn-success btn-lg ">let's start</button>
+                
+            </div>
+            <img src="photos/download.jpg" alt="director" class="img-fluid w-50" >
+        </div>
+    </div>
+   </section>
+
+   <section class="bg-dark text-light">
+    <div class="container py-3">
+        <div class="flex justify-content-between aling-items-center">
+            <h3>Sign in for updates!!</h3>
+        </div>
+        <div class="input-group ">
+            <input type="text" class="form-control" placeholder="username" aria-label=" username" aria-describedby="button-addon2">
+            <button class="btn btn-warning" type="button" id="button-addon2">Sign In</button>
+          </div>
+    </div>
+   </section>
+
+   <!--cards-->
+
+   <section>
+    <div class="row row-cols-1 row-cols-md-3 g-4 p-5">
+        <div class="col">
+          <div class="card h-100 bg-dark text-light">
+            <img src="photos/goat.jpg" class="card-img-top img-fluid" alt="..." width="20px" height="20px">
+            <div class="card-body">
+              <h5 class="card-title">Aadujeevetham
+              </h5>
+              <p class="card-text">
+                Indian migrant worker Najeeb Muhammed goes to Saudi Arabia to earn money to send back home, but he finds himself living a slave-like existence herding goats in the middle of the desert.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 bg-dark text-light">
+            <img src="photos/aavesham.jpg" class="card-img-top img-fluid" alt="..." width="20px" height="20px">
+            <div class="card-body">
+              <h5 class="card-title">Aavesham</h5>
+              <p class="card-text">Three teens come to Bangalore for their engineering education and get involved in a fight. They find a local gangster to help them <span class="fw-bold">"Ranga"</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 bg-dark text-light">
+            <img src="photos/varshangulukushesham.jpg" class="card-img-top img-fluid" alt="..." width="20px" height="20px">
+            <div class="card-body">
+              <h5 class="card-title">varshangulukushesham</h5>
+              <p class="card-text">Two young men leave their hometown to chase their dream of becoming big in the world of 1970s and '80s South Indian cinema.</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+   </section>
+
+
+
+   <section id="learn" class="py-5">
+    <div class="container" >
+        <div class="row aling-items-center justify-content-between">
+            <div class="col-md">
+                <img src="photos/Vetrimaaran.webp" alt="" class="img-fluid">
+            </div>
+            <div class="col-md p-5">
+                <h2>Learn from the best</h2>
+                <p class="lead">
+                    Brutalism in art is about being concrete, truthful and unpretentious. It is a choice over being precise, aesthetically pleasing and correct 
+                </p>
+                <p class="learn">
+                    - Vetrimaaran
+                </p>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <section id="learn" class="py-5 bg-dark">
+    <div class="container" >
+        <div class="row aling-items-center justify-content-between">
+            <div class="col-md p-5 text-light">
+                <h2>Learn from the best</h2>
+                <p class="lead">
+                    If u have love for art and being true to it,u will become the rolemodel for the fellow craftsman.
+                </p>
+                <p class="learn">
+                    - Selvaraghavan
+                </p>
+            </div>
+            <div class="col-md">
+                <img src="photos/selva.jpg" alt="" class="img-top-right" width="100%$">
+            </div>
+        </div>
+    </div>
+   </section>
+   <section id="questions" class="p-5">
+    <div class="container">
+        <h2 class="text-center md-4">
+            Frequently Asked Questions
+        </h2>
+        <div class="accordion accordion-flush" id="questions">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                 why flimmaking?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="questions">
+                <div class="accordion-body">Because , it's fun.</div>
+              </div>
+            </div>
+            <!--item 2-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  what are the departments ?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="questions">
+                <div class="accordion-body">
+                    In filmmaking, various departments work together to bring a film project to life. Here are some of the key departments typically found in a film production are Development,Pre-Production,
+                    Production Management,cinematography,Storyboarding,Art Department,Costume Department,Makeup and Hair,Production, Direction,Casting,Location Scouting,...
+                    
+                    </div>
+              </div>
+            </div>
+            <!--item 3-->
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                 what the basic salary??
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="questions">
+                <div class="accordion-body">
+                    Don't expect salary in this indusry , you have to work hard to get a job and earn your name in it , then automatically you will get a salary .
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+   </section>
+
+   <section class="p-5">
+    <div class="container">
+        <div class="row row-md">
+            <div class="col col-md">
+                <h2 class="text-center mb-4">Contact Info</h2>
+                <ul class="list-group list-group-flush lead">
+                    <li class="list-group-items">
+                        <span class=" bold">E.mail📧:</span> balaon472000@gmail.com
+                        </li>
+                    <li class="list-group-items">
+                        <span class="bold">Phone📞:</span> +91 8088346281
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+   </section>
+<!--footer-->
+
+<footer class="py-3 text-white bg-dark position-relative">
+    <div class="container">
+        <p class="text-center">
+            Copyright &copy; 2024 | All rights reserved
+        </p>
+
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
